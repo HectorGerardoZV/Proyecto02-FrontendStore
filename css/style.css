@@ -88,3 +88,18 @@ img{
 .navegacion__enlace:hover{
     color: var(--cSecundarioA);
 }
+
+/*----FOOTER----*/
+.footer{
+    background-color: var(--cPrincipalB);
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+.footer__texto{
+    text-align: center;
+}
+.footer__span{
+    font-weight: bold;
+    color: var(--cSecundarioA);
+
+}
