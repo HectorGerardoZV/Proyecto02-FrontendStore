@@ -77,16 +77,24 @@ img{
     padding: 1rem 0;
     display: flex;
     justify-content: center; 
-    gap:2rem;
+    
 }
 
 .navegacion__enlace{
     font-size: 3rem;
     color: var(--cBlanco);
+    transition: .3s;
+    margin-right: 2rem;
+}
+.navegacion__enlace:last-of-type{
+    margin: 0;
 }
 .navegacion__enlace--activo,
 .navegacion__enlace:hover{
-    color: var(--cSecundarioA);
+    color: var(--cSecundarioA); 
+}
+.navegacion__enlace:hover{
+    filter: drop-shadow(5px 5px 10px #000);
 }
 
 /*----FOOTER----*/
