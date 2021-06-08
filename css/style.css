@@ -50,7 +50,7 @@ a{
     text-decoration: none;
 }
 img{
-    width: 100%;
+    max-width: 100%;
 }
 
 
@@ -59,4 +59,32 @@ img{
 .contenedor{
     max-width: 120rem;
     margin: 0 auto;
+}
+
+
+/*----HEADER----*/
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header__logo{
+    margin: 3rem 0;
+}
+
+/*----NAVEGACION----*/
+.navegacion{
+    background-color: var(--cPrincipalB);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center; 
+    gap:2rem;
+}
+
+.navegacion__enlace{
+    font-size: 3rem;
+    color: var(--cBlanco);
+}
+.navegacion__enlace--activo,
+.navegacion__enlace:hover{
+    color: var(--cSecundarioA);
 }
