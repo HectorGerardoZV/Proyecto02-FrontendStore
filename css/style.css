@@ -1,0 +1,62 @@
+/*Utilities*/
+:root{
+    --fPrincipal: 'Staatliches', cursive;
+    --cPrincipalA: #9c27b0;
+    --cPrincipalB: #89119d;
+    --cSecundarioA: #ffce00;
+    --cSecundarioB: #b69d3a;
+    --cBlanco: #fff;
+    --cNegro: #000;
+}
+
+/*<____HTML and BODY___*/
+html{
+    font-size: 62.5%;
+    box-sizing: border-box
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    font-size: 16px;
+    font-family: var(--fPrincipal);
+    background-color: var(--cPrincipalA);
+    line-height: 1.5;
+}
+
+
+/*Globals*/
+h1,h2,h3{
+    text-align: center;
+    color: var(--cSecundarioA);
+    font-family: var(--fPrincipal);
+}
+h1{
+    font-size: 3.5rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cBlanco);
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+
+
+/*Tools*/
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
