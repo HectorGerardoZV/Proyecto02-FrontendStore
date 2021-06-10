@@ -60,6 +60,15 @@ img{
     max-width: 120rem;
     margin: 0 auto;
 }
+.boton{
+    border: none;
+    cursor: pointer;
+    background-color: var(--cSecundarioA);
+    transition: .4s;
+}
+.boton:hover{
+    background-color: var(--cSecundarioB);
+}
 
 /*__________INDEX__________*/
 
@@ -189,6 +198,58 @@ img{
 }
 .informacion__icono{
     text-align: center;
+}
+
+
+/*__________PRODUCTO__________*/
+
+.camisa{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.camisa__imagen{
+    width: 90%;
+    height: 100%;
+}
+
+.formulario{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.formulario__talla{
+    padding: 1rem 0;
+    background-color: var(--cPrincipalA);
+    border:solid 1rem;
+    border-color: var(--cPrincipalB);
+    color: var(--cBlanco);
+    font-size: 2rem;
+
+}
+.formulario__cantidad{
+    padding: 1rem 0;
+    background-color: var(--cPrincipalA);
+    border:solid 1rem;
+    border-color: var(--cPrincipalB);
+    color: var(--cBlanco);
+    text-align: center;
+    font-size: 2rem;
+
+}
+.formulario__cantidad::placeholder{
+  
+    color: var(--cBlanco);
+    
+
+}
+.formulario__boton{
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    grid-column: 1/3;
+    font-size: 2rem;
+    
 }
 
 
