@@ -61,6 +61,7 @@ img{
     margin: 0 auto;
 }
 
+/*__________INDEX__________*/
 
 /*----HEADER----*/
 .header{
@@ -160,10 +161,38 @@ img{
 
 }
 
+/*__________NOSOTROS__________*/
+
+/*----MAIN----*/
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+}
+.main__texto{
+    margin: 0;
+}
+
+/*----Informacion----*/
+.informacion{
+    margin-top: 5rem;
+}
+
+.informacion__iconos{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.informacion__icono{
+    text-align: center;
+}
+
+
+
 
 /*----Responsive----*/
 
-/*Main*/
+/*Main--INDEX*/
 @media(max-width: 800px) {
     .grafico{
     height: 40rem;
@@ -199,4 +228,9 @@ img{
         grid-column: 1/2;
     
     }
+
+
+/*Main--NOSOTROS*/
+
+
 }
