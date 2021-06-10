@@ -4,7 +4,7 @@
     --cPrincipalA: #9c27b0;
     --cPrincipalB: #89119d;
     --cSecundarioA: #ffce00;
-    --cSecundarioB: #b69d3a;
+    --cSecundarioB: rgb(233,187,2);
     --cBlanco: #fff;
     --cNegro: #000;
 }
@@ -206,7 +206,8 @@ img{
 .camisa{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 .camisa__imagen{
@@ -307,6 +308,13 @@ img{
     }
 
 
+}
+
+/*Main--PRODUCTO*/
+@media(max-width: 1000px) {
+    .camisa{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 }
