@@ -168,6 +168,8 @@ img{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     column-gap: 2rem;
+    max-width: 90%;
+    margin: 0 auto;
 }
 .main__texto{
     margin: 0;
@@ -182,6 +184,8 @@ img{
     margin-top: 5rem;
     display: flex;
     justify-content: space-between;
+    max-width: 90%;
+    margin: 0 auto;
 }
 .informacion__icono{
     text-align: center;
@@ -232,5 +236,16 @@ img{
 
 /*Main--NOSOTROS*/
 
+@media(max-width: 800px) {
+    
+    .main{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .informacion__iconos{
+        flex-direction: column;
+    }
+
+
+}
 
 }
